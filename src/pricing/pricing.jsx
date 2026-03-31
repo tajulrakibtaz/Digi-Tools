@@ -10,120 +10,99 @@ const Pricing = () => {
             </div>
             </div>
             <div className='flex'>
-           <div className="card w-96 bg-base-100 shadow-sm">
-  <div className="card-body">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
-    <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Premium</h2>
-      <span className="text-xl">$29/mo</span>
+       <div className="card w-96 bg-base-100 shadow-2xl p-8">
+  <div className="card-body  relative">
+    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
+     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
+    🎨
+  </div>
+    <div className="">
+      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
+      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
     </div>
+    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>High-resolution image generation</span>
+        <span>Unlimited AI generations</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Customizable style templates</span>
+        <span>50+ writing templates</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Batch processing capabilities</span>
+        <span>Grammar checker</span>
       </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Seamless cloud integration</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Real-time collaboration tools</span>
-      </li>
+     
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
     </div>
   </div>
-</div> 
-           <div className="card w-96 bg-base-100 shadow-sm">
-  <div className="card-body">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
-    <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Premium</h2>
-      <span className="text-xl">$29/mo</span>
+</div>
+         <div className="card w-96 bg-base-100 shadow-2xl p-8">
+  <div className="card-body  relative">
+    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
+     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
+    🎨
+  </div>
+    <div className="">
+      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
+      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
     </div>
+    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>High-resolution image generation</span>
+        <span>Unlimited AI generations</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Customizable style templates</span>
+        <span>50+ writing templates</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Batch processing capabilities</span>
+        <span>Grammar checker</span>
       </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Seamless cloud integration</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Real-time collaboration tools</span>
-      </li>
+     
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
     </div>
   </div>
-</div> 
-           <div className="card w-96 bg-base-100 shadow-sm">
-  <div className="card-body">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
-    <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Premium</h2>
-      <span className="text-xl">$29/mo</span>
+</div>
+           <div className="card w-96 bg-base-100 shadow-2xl p-8">
+  <div className="card-body  relative">
+    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
+     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
+    🎨
+  </div>
+    <div className="">
+      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
+      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
     </div>
+    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>High-resolution image generation</span>
+        <span>Unlimited AI generations</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Customizable style templates</span>
+        <span>50+ writing templates</span>
       </li>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Batch processing capabilities</span>
+        <span>Grammar checker</span>
       </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Seamless cloud integration</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Real-time collaboration tools</span>
-      </li>
+     
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
     </div>
   </div>
-</div> 
+</div>
 </div>
         </div>
     );

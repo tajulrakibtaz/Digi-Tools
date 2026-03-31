@@ -8,6 +8,8 @@ import Details from './details/details';
 import Steps from './steps/steps';
 import Pricing from './pricing/pricing';
 import Ready from './ready/ready';
+
+import CardsContainer from './cardsContainer/cardsContainer';
 const App = () => {
   return (
     <div className=''>
@@ -18,6 +20,10 @@ const App = () => {
 <Steps ></Steps>
 <Pricing></Pricing>
 <Ready></Ready>
+<CardsContainer></CardsContainer>
+
+
+
     </div>
   );
 };
