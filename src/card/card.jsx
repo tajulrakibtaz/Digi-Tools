@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Card = ({res}) => {
-    console.log(res);
+const Card = ({res,selectCard,setSelectedCard}) => {
+    const [isTaken,setTaaken]=useState(false)
+ const onclicked=() => {setTaaken(true);
+    alert (`${res.title} is added to the card`);
+    setSelectedCard ([...selectCard,res]);
+      
+      }
+
     return (
         <div className=''>
               <div className="card w-96 bg-base-100 shadow-2xl p-8">
@@ -31,7 +37,10 @@ const Card = ({res}) => {
      
     </ul>
     <div className="mt-6">
-      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
+      <button onClick={()=>onclicked()
+      }
+      disabled={isTaken}
+      className={`btn  ${isTaken===false?'btn-primary':'bg-amber-400 text-amber-50'}  btn-block rounded-3xl`}>{isTaken===false?'Buy Now':'Moved to cart'}</button>
     </div>
   </div>
 </div>
