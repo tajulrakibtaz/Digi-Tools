@@ -8,6 +8,7 @@ import Details from './details/details';
 import Steps from './steps/steps';
 import Pricing from './pricing/pricing';
 import Ready from './ready/ready';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 import CardsContainer from './cardsContainer/cardsContainer';
@@ -26,7 +27,10 @@ const App = () => {
 
 
     </div>
+    
   );
+      
+  
 };
 
 export default App;
