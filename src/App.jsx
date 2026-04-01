@@ -9,6 +9,7 @@ import Steps from './steps/steps';
 import Pricing from './pricing/pricing';
 import Ready from './ready/ready';
 
+
 import CardsContainer from './cardsContainer/cardsContainer';
 const App = () => {
   return (

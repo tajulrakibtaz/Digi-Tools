@@ -1,8 +1,11 @@
 import React from 'react';
 import SDetails from '../sDetails/sDetails';
-const Carts = ({selectCard}) => {
-    console.log(selectCard);
+const Carts = ({selectCard,setSelectedCard}) => {
+    
     const total = selectCard.reduce((sum, item) => sum + item.price, 0);
+    const cutTheCheckOut=()=>{
+        setSelectedCard([]);
+    }
     return (
         <div>
            <div className="mt-8 p-6 border rounded-xl">
@@ -12,7 +15,9 @@ const Carts = ({selectCard}) => {
     <SDetails 
       key={id} 
       info={info} 
-      onRemove={() => handleRemove(id)} 
+      setSelectedCard={setSelectedCard}
+      selectCard={selectCard}
+     
     />
   ))}
 
@@ -21,7 +26,7 @@ const Carts = ({selectCard}) => {
     <span>${total}</span>
   </div>
 
-  <button className="w-full mt-4 py-3 rounded-3xl text-white bg-gradient-to-r from-blue-500 to-purple-500">
+  <button onClick={()=>cutTheCheckOut()} className="w-full mt-4 py-3 rounded-3xl text-white bg-gradient-to-r from-blue-500 to-purple-500">
     Proceed To Checkout
   </button>
 </div>

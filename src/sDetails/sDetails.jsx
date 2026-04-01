@@ -1,8 +1,12 @@
 
 import React from "react";
 
-const SDetails = ({ info }) => {
+const SDetails = ({ info,setSelectedCard,selectCard }) => {
+const handleRemoveid=(info)=>{
+const filerInfo = selectCard.filter(selectedPlayer=>selectedPlayer.id!==info.id);
+setSelectedCard(filerInfo);
 
+}
     return (
         <div>
             <div >
@@ -18,7 +22,7 @@ const SDetails = ({ info }) => {
                         </div>
                     </div>
                     <div>
-                        <button className="text-red-500">Remove</button>
+                        <button onClick={()=>handleRemoveid(info)} className="text-red-500">Remove</button>
                     </div>
                 </div>
             </div>

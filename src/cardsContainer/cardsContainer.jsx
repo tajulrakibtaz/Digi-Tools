@@ -1,7 +1,7 @@
 import React, { Suspense, useState } from 'react';
 import Cards from '../cards/cards';
 import Carts from '../carts/carts';
-
+import Nothing from '../nothing/nothing';
 const loadData = async() =>{
  const res = await fetch("/data.json");
  return res.json();
@@ -37,12 +37,24 @@ rounded-3xl mr-2`}>Products</button>
     )
 }
 {
-    click==='Cart' && (
+    click==='Cart' &&  selectCard.length > 0 &&  (
         <Suspense fallback={'loading....'}>
         <Carts setSelectedCard={setSelectedCard} selectCard={selectCard} ></Carts>
 </Suspense>
     )
 }
+{
+    click==='Cart'&& selectCard.length === 0 &&(
+        <Suspense fallback={'loading....'}>
+<Nothing></Nothing>
+        </Suspense>
+    )
+}
+
+
+
+
+
 
 
 </div>
