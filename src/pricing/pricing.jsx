@@ -2,109 +2,83 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className='max-w-[1200px] mx-auto my-[120px]'>
-            <div>
-                <div className='max-w-[1200px] mx-auto text-center'>
-<h1 className='text-[48px] font-extrabold'>Simple, Transparent Pricing</h1>
-<p className='text-[16px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-            </div>
-            </div>
-            <div className='flex'>
-       <div className="card w-96 bg-base-100 shadow-2xl p-8">
-  <div className="card-body  relative">
-    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
-     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
-    🎨
-  </div>
-    <div className="">
-      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
-      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
-    </div>
-    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
-    <ul className="mt-6 flex flex-col gap-2 text-xs">
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Unlimited AI generations</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>50+ writing templates</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Grammar checker</span>
-      </li>
-     
-    </ul>
-    <div className="mt-6">
-      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
-    </div>
-  </div>
-</div>
-         <div className="card w-96 bg-base-100 shadow-2xl p-8">
-  <div className="card-body  relative">
-    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
-     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
-    🎨
-  </div>
-    <div className="">
-      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
-      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
-    </div>
-    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
-    <ul className="mt-6 flex flex-col gap-2 text-xs">
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Unlimited AI generations</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>50+ writing templates</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Grammar checker</span>
-      </li>
-     
-    </ul>
-    <div className="mt-6">
-      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
-    </div>
-  </div>
-</div>
-           <div className="card w-96 bg-base-100 shadow-2xl p-8">
-  <div className="card-body  relative">
-    <div className='w-max-[380px]'><span className="badge badge-xs badge-warning absolute top-2 right-0 ">Most Popular</span></div>
-     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 mb-4 text-xl">
-    🎨
-  </div>
-    <div className="">
-      <h2 className="text-[24px] font-bold ">AI Writing Pro</h2>
-      <span className="text-[16px]">Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.</span>
-    </div>
-    <div className='text-[24px]'>$29 <samp className='text-[16px]'>/mo</samp></div>
-    <ul className="mt-6 flex flex-col gap-2 text-xs">
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Unlimited AI generations</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>50+ writing templates</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Grammar checker</span>
-      </li>
-     
-    </ul>
-    <div className="mt-6">
-      <button className="btn  btn-primary btn-block rounded-3xl">Buy Now</button>
-    </div>
-  </div>
-</div>
-</div>
+        <div className="flex gap-6 justify-center py-10 bg-gray-100 mb-0">
+
+  
+      <div className="card w-80 bg-base-100 shadow-md">
+        <div className="card-body">
+          <h2 className="text-2xl font-bold">Starter</h2>
+          <p className="text-gray-500">Perfect for getting started</p>
+
+          <h1 className="text-4xl font-bold">$0<span className="text-lg font-normal">/Month</span></h1>
+
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>✔ Access to 10 free tools</li>
+            <li>✔ Basic templates</li>
+            <li>✔ Community support</li>
+            <li>✔ 1 project per month</li>
+          </ul>
+
+          <button className="btn mt-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+            Get Started Free
+          </button>
         </div>
+      </div>
+
+   
+      <div className="card w-80 text-white shadow-xl rounded-xl 
+        bg-gradient-to-b from-indigo-600 to-purple-600 relative scale-105">
+
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 
+          badge badge-warning px-4 py-2">
+          Most Popular
+        </span>
+
+        <div className="card-body">
+          <h2 className="text-2xl font-bold">Pro</h2>
+          <p className="text-gray-200">Best for professionals</p>
+
+          <h1 className="text-4xl font-bold">$29<span className="text-lg font-normal">/Month</span></h1>
+
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>✔ Access to all premium tools</li>
+            <li>✔ Unlimited templates</li>
+            <li>✔ Priority support</li>
+            <li>✔ Unlimited projects</li>
+            <li>✔ Cloud sync</li>
+            <li>✔ Advanced analytics</li>
+          </ul>
+
+          <button className="btn mt-6 rounded-full bg-white text-purple-600 border-none">
+            Start Pro Trial
+          </button>
+        </div>
+      </div>
+
+  
+      <div className="card w-80 bg-base-100 shadow-md">
+        <div className="card-body">
+          <h2 className="text-2xl font-bold">Enterprise</h2>
+          <p className="text-gray-500">For teams and businesses</p>
+
+          <h1 className="text-4xl font-bold">$99<span className="text-lg font-normal">/Month</span></h1>
+
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>✔ Everything in Pro</li>
+            <li>✔ Team collaboration</li>
+            <li>✔ Custom integrations</li>
+            <li>✔ Dedicated support</li>
+            <li>✔ SLA guarantee</li>
+            <li>✔ Custom branding</li>
+          </ul>
+
+          <button className="btn mt-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+            Contact Sales
+          </button>
+        </div>
+      </div>
+
+    </div>
     );
 };
 

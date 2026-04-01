@@ -4,8 +4,19 @@ const Header = () => {
     return (
         <div className='flex  gap-6 my-[85px] max-w-[1200px] mx-auto'>
             <div className=' items-center'>
-                <button className='text-[16px] text-purple-500 px-5 rounded-xl bg-blue-100'>
-                    New: AI-Powered Tools Available
+                <button className='text-[16px] flex gap-2 text-purple-500 px-5 rounded-xl bg-blue-100'>
+                   
+                   <div className="relative w-6 h-6  rounded-tl-3xl flex items-center justify-center">
+ 
+  <div className="absolute w-6 h-6 rounded-full bg-purple-300 opacity-50"></div>
+  
+
+  <div className="absolute w-4 h-4 rounded-full bg-purple-400 opacity-70"></div>
+  
+ 
+  <div className="absolute w-2 h-2 rounded-full bg-purple-700"></div>
+</div> 
+<div>New: AI-Powered Tools Available</div>
                 </button>
                 <h1 className='font-extrabold text-[72px]' >
                     Supercharge Your <br/> Digital Workflow

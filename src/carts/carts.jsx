@@ -4,11 +4,12 @@ const Carts = ({selectCard,setSelectedCard}) => {
     
     const total = selectCard.reduce((sum, item) => sum + item.price, 0);
     const cutTheCheckOut=()=>{
+     
         setSelectedCard([]);
     }
     return (
         <div>
-           <div className="mt-8 p-6 border rounded-xl">
+           <div className="mt-8 p-6 shadow shadow-purple-400 rounded-xl">
   <h1 className="text-xl font-bold mb-4">Your Cart</h1>
 
   {selectCard.map((info, id) => (

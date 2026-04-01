@@ -7,10 +7,10 @@ const loadData = async() =>{
  return res.json();
 }
 
-const CardsContainer = () => {
+const CardsContainer = ({setSelectedCard,selectCard}) => {
     const fetchCards =loadData();
     const [click,setclick]=useState('Products');
-const [selectCard, setSelectedCard]=useState([]);
+// const [selectCard, setSelectedCard]=useState([]);
 
     return (
         <div className='max-w-[1200px] mx-auto'>

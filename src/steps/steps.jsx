@@ -8,29 +8,38 @@ const Steps = () => {
 <p className='text-[16px]'>Start using premium digital tools in minutes, not hours.</p>
             </div>
             <div className='flex justify-between'>
-<div className='border max-w-[380px]'>
-<div>01</div>
-<div>
+<div className='shadow max-w-[380px] p-4 text-center '>
+
+<div className='relative'>
+<span className='bg-purple-500 w-6 h-6 text-white rounded-full absolute top-0 right-0'>01</span>
+<div className='mx-auto p-2 bg-purple-100 rounded-full w-[60px] h-[60px]'>
     <img src={img} alt="" />
 </div>
-<h1>Create Account</h1>
+<h1 className='font-bold text-[24px]'>Create Account</h1>
 <p>Sign up for free in seconds. No credit card <br /> required to get started.</p>
 </div>
-<div className='border max-w-[380px]'>
-<div>01</div>
-<div>
+</div>
+<div className='shadow max-w-[380px] p-4 text-center '>
+
+<div className='relative'>
+<span className='bg-purple-500 w-6 h-6 text-white rounded-full absolute top-0 right-0'>02</span>
+<div className='mx-auto p-2 bg-purple-100 rounded-full w-[60px] h-[60px]'>
     <img src={img} alt="" />
 </div>
-<h1>Create Account</h1>
-<p>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+<h1 className='font-bold text-[24px]'>Choose Products</h1>
+<p>Browse our catalog and select the toolsthat fit your needs.</p>
 </div>
-<div className='border max-w-[380px]'>
-<div>01</div>
-<div>
+</div>
+<div className='shadow max-w-[380px] p-4 text-center '>
+
+<div className='relative'>
+<span className='bg-purple-500 w-6 h-6 text-white rounded-full absolute top-0 right-0'>03</span>
+<div className='mx-auto p-2 bg-purple-100 rounded-full w-[60px] h-[60px]'>
     <img src={img} alt="" />
 </div>
-<h1>Create Account</h1>
-<p>Sign up for free in seconds. No credit card <br /> required to get started.</p>
+<h1 className='font-bold text-[24px]'>Start Creating</h1>
+<p>Download and start using your premium tools immediately.</p>
+</div>
 </div>
             </div>
         </div>
