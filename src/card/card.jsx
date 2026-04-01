@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({res,selectCard,setSelectedCard}) => {
     const [isTaken,setTaaken]=useState(false)
  const onclicked=() => {setTaaken(true);
-    alert (`${res.title} is added to the card`);
+    toast (`${res.title} is added to the card`);
     setSelectedCard ([...selectCard,res]);
       
       }

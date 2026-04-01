@@ -1,8 +1,10 @@
 
 import React from "react";
+import { toast } from "react-toastify";
 
 const SDetails = ({ info,setSelectedCard,selectCard }) => {
 const handleRemoveid=(info)=>{
+     toast (`${info.title} is removed from the cart`);
 const filerInfo = selectCard.filter(selectedPlayer=>selectedPlayer.id!==info.id);
 setSelectedCard(filerInfo);
 

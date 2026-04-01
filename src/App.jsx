@@ -10,7 +10,6 @@ import Pricing from './pricing/pricing';
 import Ready from './ready/ready';
 import { ToastContainer, toast } from 'react-toastify';
 
-
 import CardsContainer from './cardsContainer/cardsContainer';
 const App = () => {
   return (
@@ -23,7 +22,7 @@ const App = () => {
 <Pricing></Pricing>
 <Ready></Ready>
 <CardsContainer></CardsContainer>
-
+<ToastContainer></ToastContainer>
 
 
     </div>
